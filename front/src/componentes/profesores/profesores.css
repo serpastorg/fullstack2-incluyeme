@@ -1,0 +1,85 @@
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+.profe{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.detalle-Profesor{
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Titulo{
+    font-weight: bold;
+    text-align: left;   
+}
+.Profesor-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.NombreProfesor{
+    font-weight: 800;
+    text-align: left;
+    font-size: large;
+}
+.campo{
+    display: block;
+    text-align: left;
+}
+.actualizar{
+    background-color: darkblue;
+}
+.eliminar{
+    background-color:crimson;
+}
+.acciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.acciones button{
+    align-self: flex-end;
+    margin: 10px;
+}
+.crear{
+    background-color: chocolate;
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.formulario-profe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.campoform{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 300px;
+}
+#btnCrear{
+    align-items: center;
+}
+.imgProfe{
+    height: 250px;
+    margin: 20px;
+}
