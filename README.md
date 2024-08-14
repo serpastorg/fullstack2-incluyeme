@@ -16,6 +16,12 @@ Profesores alberga imágenes subidas desde el Frondend.
 
 ## Instalación
 
+Descargue todas las carpetas en este repositorio
+
+git clone https://github.com/serpastorg/fullstack2-incluyeme.git
+
+Entre en la carpeta que el anterior comando crea
+
 ### Backend
 
 1. Navega al directorio `back/`.
