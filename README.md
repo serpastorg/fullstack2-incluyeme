@@ -51,17 +51,17 @@ Entre en la carpeta que el anterior comando crea
 1. Navegue al directorio `front/`, que está en la misma carpeta que "back/"
 
 
-2. Instala las dependencias del frontend.
+2. Instale las dependencias del frontend.
 
     npm install
 
-3. Inicia el servidor de desarrollo del frontend.
+3. Inicie el servidor de desarrollo del frontend.
 
     npm run dev
 
 ## Funcionalidades
 
-- **Lista de Profesores**: Visualiza todos los registros en la colección "profesors" (profesores)
+- **Lista de Profesores**: Lista todos los registros en la colección "profesors" (profesores)
 - **Edición de Profesores**: Permite la edición de los registros en la colección
 - **Crear Profesor**: Añade un nuevo registro en la colección
 - **Eliminar Profesor**: Elimina un registro de la base de datos.
@@ -70,7 +70,7 @@ Cuando se cambia la imagen en el front, el backend borra la imagen correspondien
 
 ## Endpoints del API
 
-- `GET /profesores` - Obtiene todos los registros de la base de datos y los muestra con su respectiva imagen.
+- `GET /profesores` - Obtiene todos los registros de la base de datos y los muestra en una lista, cada uno con su respectiva imagen.
 - `GET /profesores/:id` - Obtiene un registro por su ID
 
 - `POST /profesores` - Crea un nuevo registro. Se debe mandar un formulario (multipart/form-data) con los siguientes datos en el body como 
