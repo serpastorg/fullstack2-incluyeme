@@ -79,9 +79,9 @@ Cuando se cambia la imagen en el front, el backend borra la imagen correspondien
 } 
 y un archivo de tipo (mimetype) image que se identifica como "imagen" dentro del body, que es el que se guarda en el directorio del backend según la hora en la que se suba (Date.now()) el archivo
 
-- `PUT /api/hechizos/:id` - Actualiza un registro de la base de datos según los datos que se manden. Los parámetros para el PUT de actualizar son los mismos que para el POST de crear. Si en el formulario de actualización se indica un archivo diferente, se borra el que estaba vinculado al registro y se pone el nuevo. Si no se cambia el archivo, se mantiene la ruta, y, por lo tanto, el archivo.
+- `PUT /profesores/:id` - Actualiza un registro de la base de datos según los datos que se manden. Los parámetros para el PUT de actualizar son los mismos que para el POST de crear. Si en el formulario de actualización se indica un archivo diferente, se borra el que estaba vinculado al registro y se pone el nuevo. Si no se cambia el archivo, se mantiene la ruta, y, por lo tanto, el archivo.
 
-- `DELETE /api/hechizos/:id` - Elimina un registro de la base de datos con su respectiva imagen
+- `DELETE /profesores/:id` - Elimina un registro de la base de datos con su respectiva imagen
 
 ## Llamada a la API externa
 
