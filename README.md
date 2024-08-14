@@ -35,11 +35,12 @@ Entre en la carpeta que el anterior comando crea
 3. Configure las variables de entorno. Cree un archivo `.env` en el directorio `back/` y agregue la siguiente línea:
 
     MONGODB_URI=mongodb://localhost:27017/tutorias
+   
     PORT=5000
 
     La base de datos debe llamarse tutorias y la colección dentro de ella se llama "profesors". Esta constituye la capa de persistencia del proyecto CRUD
 
-4. Inicie el servidor del backend.
+5. Inicie el servidor del backend.
     Diríjase a la carpeta "back/" y teclee
     "npm start" o "nodemon", en caso de tener nodemon instalado
 
