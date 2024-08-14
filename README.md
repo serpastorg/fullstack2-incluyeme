@@ -32,7 +32,7 @@ Entre en la carpeta que el anterior comando crea
 
     npm install
 
-3. Configure las variables de entorno. Cree un archivo `.env` en el directorio `back/` y agrega la siguiente línea:
+3. Configure las variables de entorno. Cree un archivo `.env` en el directorio `back/` y agregue la siguiente línea:
 
     MONGODB_URI=mongodb://localhost:27017/tutorias
     PORT=5000
