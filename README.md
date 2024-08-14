@@ -24,11 +24,11 @@ Entre en la carpeta que el anterior comando crea
 
 ### Backend
 
-1. Navega al directorio `back/`.
+1. Navegue al directorio `back/`.
 
     cd back
 
-2. Instala las dependencias del backend.
+2. Instale las dependencias del backend.
 
     npm install
 
