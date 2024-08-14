@@ -22,6 +22,11 @@ git clone https://github.com/serpastorg/fullstack2-incluyeme.git
 
 Entre en la carpeta que el anterior comando crea
 
+### Base de datos
+
+Debe haber una base de datos llamada "tutorias" y una colección dentro de ella llamada "profesors" para que el programa funcione. Una vez que se haya realizado la conexión adecuada a la base de datos de MongoDB el programa dirá (en la consola del backend) cuando la conexión sea exitosa.
+
+
 ### Backend
 
 1. Navegue al directorio `back/`.
@@ -59,9 +64,6 @@ Entre en la carpeta que el anterior comando crea
 
     npm run dev
 
-### Base de datos
-
-Debe haber una base de datos llamada "tutorias" y una colección dentro de ella llamada "profesors" para que el programa funcione. Una vez que se haya realizado la conexión adecuada a la base de datos de MongoDB el programa dirá (en la consola del backend) cuando la conexión sea exitosa.
 
 ## Funcionalidades
 
