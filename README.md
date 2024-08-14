@@ -1,7 +1,7 @@
 # Descripción del proyecto
 
 Este proyecto incluye un CRUD con MongoDB llamado "Profesores" y una llamada a API externa llamada DragonBall.
-Profesores alberga imágenes subidas desde el Frondend.
+Profesores alberga imágenes subidas desde el Frontend.
 
 ## Tecnologías Utilizadas
 
