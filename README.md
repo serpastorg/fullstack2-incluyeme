@@ -32,7 +32,7 @@ Entre en la carpeta que el anterior comando crea
 
     npm install
 
-3. Configure las variables de entorno. Cree un archivo `.env` en el directorio `back/` y agregue la siguiente línea:
+3. Configure las variables de entorno. Cree un archivo `.env` en el directorio `back/` y agregue la siguientes líneas:
 
     MONGODB_URI=mongodb://localhost:27017/tutorias
    
@@ -42,6 +42,7 @@ Entre en la carpeta que el anterior comando crea
 
 5. Inicie el servidor del backend.
     Diríjase a la carpeta "back/" y teclee
+   
     "npm start" o "nodemon", en caso de tener nodemon instalado
 
 
@@ -74,9 +75,9 @@ Cuando se cambia la imagen en el front, el backend borra la imagen correspondien
 
 - `POST /profesores` - Crea un nuevo registro. Se debe mandar un formulario (multipart/form-data) con los siguientes datos en el body como 
 {
-    nombre: 'Elnombrequequiera', 
-    email: 'ElEmailquequiera',
-    phone:'ElPhonequequiera'
+    nombre: 'ElnombrequequieratipoString', 
+    email: 'ElEmailquequieratipoString',
+    phone:'ElPhonequequieratipoString'
 } 
 y un archivo de tipo (mimetype) image que se identifica como "imagen" dentro del body, que es el que se guarda en el directorio del backend según la hora en la que se suba (Date.now()) el archivo
 
